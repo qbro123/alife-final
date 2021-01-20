@@ -56,7 +56,7 @@ $(function() {
         });
         BasicSlider.slick({
             autoplay: true,
-            autoplaySpeed: 5000,
+            autoplaySpeed: 10000,
             dots: true,
             fade: true,
             arrows: false,

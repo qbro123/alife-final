@@ -18,6 +18,12 @@ img {
   max-width: 100%;
 }
 
+.header_slider {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+
 a:focus,
 input:focus,
 select:focus,
@@ -533,28 +539,30 @@ p {
 }
 
 .single_slider {
+  padding-top: 75px;
   height: 1080px;
   position: relative;
 }
 @media only screen and (min-width: 1400px) {
   .single_slider {
-    height: 900px;
+    padding-top: 75px;
+    margin-top: 75px;
+    height: 1080px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single_slider {
-    height: auto;
+    height: 100%;
   }
 }
 @media (max-width: 767px) {
   .single_slider {
-    height: auto;
+    height: 100%;
   }
 }
 .single_slider::before {
   position: absolute;
   content: "";
-  background-color: rgba(25, 33, 39, 0.54);
   width: 100%;
   height: 100%;
   left: 0;
